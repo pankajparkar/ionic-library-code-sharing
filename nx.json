@@ -17,6 +17,8 @@
   },
   "projects": {
     "client": { "tags": [] },
-    "client-e2e": { "tags": [], "implicitDependencies": ["client"] }
+    "client-e2e": { "tags": [], "implicitDependencies": ["client"] },
+    "ionic-app": { "tags": [] },
+    "ionic-app-e2e": { "tags": [], "implicitDependencies": ["ionic-app"] }
   }
 }

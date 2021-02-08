@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "ionicLibraryCodeSharing",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "ionic-library-code-sharing",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
