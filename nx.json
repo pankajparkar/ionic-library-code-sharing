@@ -21,6 +21,8 @@
     "ionic-app": { "tags": [] },
     "ionic-app-e2e": { "tags": [], "implicitDependencies": ["ionic-app"] },
     "core": { "tags": [] },
-    "shared": { "tags": [] }
+    "shared": { "tags": [] },
+    "ionic-navbar": { "tags": [] },
+    "ionic-navbar-e2e": { "tags": [], "implicitDependencies": ["ionic-navbar"] }
   }
 }

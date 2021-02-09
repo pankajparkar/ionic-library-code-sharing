@@ -1,0 +1,6 @@
+{
+  "name": "ionic-navbar",
+  "devDependencies": {
+    "@capacitor/cli": "^2.4.5"
+  }
+}
