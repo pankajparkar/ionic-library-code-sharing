@@ -1,10 +1,8 @@
-import { Component, forwardRef } from '@angular/core';
+import { Component } from '@angular/core';
 
 import { Platform } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
-
-const rootPage = forwardRef(() => AppComponent);
 
 @Component({
   selector: 'ionic-library-code-sharing-root',
@@ -12,8 +10,6 @@ const rootPage = forwardRef(() => AppComponent);
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-
-  rootPage = rootPage;
 
   constructor(
     private platform: Platform,
